@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A verse for Ayaulym</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(179, 40, 81, 0.8); /* Прозрачно-розовый фон */
+            color: white; /* Белый цвет текста */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        /* Заголовок */
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+            color: #ffdddd; /* Светло-розовый текст */
+        }
+
+        /* Фото 3x4 */
+        .photo {
+            width: 300px; /* Ширина фото */
+            height: 400px; /* Высота фото (соотношение 3x4) */
+            background-size: cover;
+            background-position: center;
+            margin: 20px 0; /* Отступы сверху и снизу */
+            border: 2px solid #ffffff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Куплеты */
+        .verse {
+            text-align: center;
+            margin-bottom: 30px; /* Отступ перед следующим фото */
+            font-size: 1.2em;
+            color: white; /* Белый цвет для стихов */
+        }
+    </style>
+</head>
+<body>
+    <h1>Аяулы менің</h1>
+
+    <!-- Фото 1 и куплет 1 -->
+    <div class="photo" style="background-image: url('photo1.jpg');"></div>
+    <div class="verse">
+        <p>Аяулы қыз, мені тындашы, Аяулы қыз</p>
+        <p>Мың қыздардан да, миллиондардан да ерекше сен</p>
+        <p>Әдемілерден де, Сұлулардан да сұлусың сен</p>
+        <p>Әдемі қыз, ғажайып қыз тек қана сен</p>
+    </div>
+
+    <!-- Фото 2 и куплет 2 -->
+    <div class="photo" style="background-image: url('photo2.jpg');"></div>
+    <div class="verse">
+        <p>Аяулы қыз, маған қарашы, Аяулы қыз </p>
+        <p>Қазынадан да өте қымбатсың сен маған</p>
+        <p>Қатты ғашықпын, өз жүрегімді берем саған</p>
+        <p>Аяулы қыз, Аяулы қыз, Аяулы қыз</p>
+    </div>
+
+    <!-- Фото 3 и куплет 3 -->
+    <div class="photo" style="background-image: url('photo3.jpg');"></div>
+    <div class="verse">
+        <p>Маған қарашы, мені тындашы, сүйші мені</p>
+        <p>Не сұрасаң да, соны жасаймын мен саған</p>
+        <p>Жұлдыз керек па, жұлдыз беремін мен саған</p>
+        <p>Аяулы қыз, Аяулы қыз, Аяулы қыз</p>
+    </div>
+
+    <!-- Фото 4 и куплет 4 -->
+    <div class="photo" style="background-image: url('photo4.jpg');"></div>
+    <div class="verse">
+        <p>Сені ойлаймын, сені сүйемін, сені қалаймын</p>
+        <p>Басқа қыздарға жүгіруге тілегім жоқ</p>
+        <p>Тек сенікі мен болғым келеді, Аяулы қыз</p>
+        <p>Сені таңдаймын, сенің боламын, сені қорғаймын</p>
+    </div>
+
+    <!-- Фото 5 -->
+    <div class="photo" style="background-image: url('photo5.jpg');"></div>
+
+    <!-- Фото 6 -->
+    <div class="photo" style="background-image: url('photo6.jpg');"></div>
+
+    <!-- Автоматическая музыка с абсолютным путем -->
+
+    <audio autoplay loop>
+        <source src="die_with_a_smile.mp3" type="audio/mpeg">
+        
+    </audio>
+
+</body>
+</html>
